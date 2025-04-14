@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Summer\\LaravelTianque\\TianQueServiceProvider"
+                "Summer\\LaravelTianQue\\TianQueServiceProvider"
             ]
         }
     }
