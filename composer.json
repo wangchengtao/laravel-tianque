@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "wangchengtao/tianque": "dev-main",
+        "wangchengtao/tianque": "7.x-dev",
         "illuminate/support": "^8.0"
     },
     "require-dev": {
