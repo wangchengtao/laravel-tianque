@@ -9,7 +9,7 @@ class TianQueServiceProvider extends LaravelServiceProvider implements Deferrabl
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../config/tianque.php' => config_path('tianque.php'),
+            __DIR__ . '/config/tianque.php' => config_path('tianque.php'),
         ]);
     }
 
