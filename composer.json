@@ -1,0 +1,32 @@
+{
+    "name": "summer/laravel-tianque",
+    "description": "laravel 集成天阙开放平台 SDK",
+    "keywords": [
+        "tianque", "laravel", "sdk"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "wangchengtao",
+            "email": "915129420@qq.com"
+        }
+    ],
+    "require": {
+        "wangchengtao/tianque": "dev-main",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Summer\\LaravelTianQue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Summer\\LaravelTianque\\TianQueServiceProvider"
+            ]
+        }
+    }
+}
