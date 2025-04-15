@@ -1,10 +1,10 @@
 <?php
 namespace Summer\LaravelTianQue;
 use Illuminate\Contracts\Support\DeferrableProvider;
-use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+use Illuminate\Support\ServiceProvider;
 use Summer\TianQue\Kernel\AopFactory;
 
-class TianQueServiceProvider extends LaravelServiceProvider implements DeferrableProvider
+class TianQueServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public function boot(): void
     {
@@ -15,6 +15,8 @@ class TianQueServiceProvider extends LaravelServiceProvider implements Deferrabl
 
     public function register(): void
     {
+        $this->mergeConfigFrom(__DIR__ . '/config/tianque.php', 'tianque');
+
         $this->app->singleton('tianque', function ($app) {
             return AopFactory::client(config('tianque'));
         });
