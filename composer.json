@@ -28,5 +28,14 @@
                 "Summer\\LaravelTianQue\\TianQueServiceProvider"
             ]
         }
-    }
+    },
+    "config": {
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://gitlab.mayihaike.xyz:9091/customization/tianque.git"
+        }
+    ]
 }
