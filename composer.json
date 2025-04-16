@@ -1,5 +1,5 @@
 {
-    "name": "wangchengtao/laravel-tianque",
+    "name": "customization/laravel-tianque",
     "description": "laravel 集成天阙开放平台 SDK",
     "keywords": [
         "tianque", "laravel", "sdk"
