@@ -1,5 +1,5 @@
 {
-    "name": "customization/laravel-tianque",
+    "name": "wangchengtao/laravel-tianque",
     "description": "laravel 集成天阙开放平台 SDK",
     "keywords": [
         "tianque", "laravel", "sdk"
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "customization/tianque": "^1.0",
+        "wangchengtao/tianque": "^1.0",
         "illuminate/support": "^6.0"
     },
     "require-dev": {
@@ -28,14 +28,5 @@
                 "Summer\\LaravelTianQue\\TianQueServiceProvider"
             ]
         }
-    },
-    "config": {
-        "secure-http": false
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "http://gitlab.mayihaike.xyz:9091/customization/tianque.git"
-        }
-    ]
+    }
 }
