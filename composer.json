@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Summer\\LaravelTianQue\\": "src/"
+            "Summer\\LaravelTianque\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Summer\\LaravelTianQue\\TianQueServiceProvider"
+                "Summer\\LaravelTianque\\TianqueServiceProvider"
             ]
         }
     }
