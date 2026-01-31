@@ -45,6 +45,12 @@ return [
      * 签名类型, 默认 RSA
      */
     'sign_type' => env('TIANQUE_SIGN_TYPE', 'RSA'),
+    
+    
+    /**
+     * 接口版本, 默认 1.0
+     */
+    'version' => env('TIANQUE_VERSION', '1.0'),
 ];
 ```
 
