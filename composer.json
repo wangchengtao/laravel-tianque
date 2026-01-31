@@ -5,6 +5,7 @@
         "tianque", "laravel", "sdk"
     ],
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "wangchengtao",
