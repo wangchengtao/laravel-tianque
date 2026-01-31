@@ -1,5 +1,7 @@
 <?php
+
 namespace Summer\LaravelTianQue;
+
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 use Summer\TianQue\Kernel\AopFactory;

@@ -25,7 +25,10 @@
         "laravel": {
             "providers": [
                 "Summer\\LaravelTianQue\\TianQueServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "TianQue": "Summer\\LaravelTianQue\\TianQue"
+            }
         }
     }
 }
