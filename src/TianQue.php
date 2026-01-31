@@ -21,7 +21,7 @@ use Summer\TianQue\Response\UploadResponse;
  */
 class TianQue extends Facade
 {
-    public static function getFacadeAccessor(): string
+    protected static function getFacadeAccessor(): string
     {
         return 'tianque';
     }
