@@ -12,20 +12,18 @@
         }
     ],
     "require": {
-        "wangchengtao/tianque": "^1.0",
-        "illuminate/support": "^6.0"
-    },
-    "require-dev": {
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "wangchengtao/tianque": "dev-main"
     },
     "autoload": {
         "psr-4": {
-            "Summer\\LaravelTianque\\": "src/"
+            "Summer\\LaravelTianQue\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Summer\\LaravelTianque\\TianqueServiceProvider"
+                "Summer\\LaravelTianque\\TianQueServiceProvider"
             ]
         }
     }

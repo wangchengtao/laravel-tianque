@@ -1,6 +1,6 @@
 <?php
 
-namespace Summer\LaravelTianque;
+namespace Summer\LaravelTianQue;
 
 use Illuminate\Support\Facades\Facade;
 use Summer\TianQue\Kernel\AopClient;
@@ -19,7 +19,7 @@ use Summer\TianQue\Response\UploadResponse;
  *
  * @see AopClient
  */
-class Tianque extends Facade
+class TianQue extends Facade
 {
     public static function getFacadeAccessor(): string
     {

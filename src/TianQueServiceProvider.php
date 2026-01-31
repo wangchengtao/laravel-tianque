@@ -1,10 +1,10 @@
 <?php
-namespace Summer\LaravelTianque;
+namespace Summer\LaravelTianQue;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 use Summer\TianQue\Kernel\AopFactory;
 
-class TianqueServiceProvider extends ServiceProvider implements DeferrableProvider
+class TianQueServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public function boot(): void
     {
