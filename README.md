@@ -58,5 +58,4 @@ $request->setPictureType(86);
 $request->setFile('https://mat.hicootest.com/image/7eK0lCdfQPWHa3DZY0ohrM7v1U0aYzA9FaYGJ16f.png');
 
 $res = TianQue::upload($request);
-}
 ```
